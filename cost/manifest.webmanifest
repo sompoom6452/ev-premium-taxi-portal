@@ -1,1 +1,15 @@
 
+{
+  "name": "EV Premium Taxi - Cost & Profit",
+  "short_name": "EVPT Taxi",
+  "description": "บันทึกต้นทุน กำไร และรายงานการให้บริการ EV Premium Taxi",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f6f8",
+  "theme_color": "#0b1f33",
+  "lang": "th"
+}
+
