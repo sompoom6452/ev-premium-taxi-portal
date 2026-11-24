@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b2d">
+  <meta name="description" content="EV Premium Taxi บริการรถยนต์ไฟฟ้าพร้อมคนขับ ราชบุรี เดินทางปลอดภัย สะดวกสบาย">
+  <title>EV Premium Taxi | ระบบบริการออนไลน์</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Tahoma, sans-serif;
+      color: #f4f7fa;
+      background: #071b2d;
+      line-height: 1.65;
+    }
+    .wrap { width: min(100% - 32px, 980px); margin: auto; }
+    header {
+      padding: 22px 0;
+      border-bottom: 1px solid #ffffff20;
+    }
+    .brand { font-size: 21px; font-weight: 800; letter-spacing: 1px; }
+    .brand span { color: #48d69a; }
+    .hero { text-align: center; padding: 65px 0 42px; }
+    .tag {
+      display: inline-block; color: #50dfa3;
+      border: 1px solid #50dfa366; border-radius: 30px;
+      padding: 5px 14px; font-size: 13px;
+    }
+    h1 { font-size: clamp(30px, 7vw, 48px); line-height: 1.2; margin: 22px 0 12px; }
+    h1 span { color: #50dfa3; }
+    .lead { color: #c2ced8; max-width: 650px; margin: auto; }
+    .services {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 18px; padding: 20px 0 45px;
+    }
+    .card {
+      background: linear-gradient(145deg, #112e45, #0b2237);
+      border: 1px solid #ffffff20; border-radius: 18px;
+      padding: 25px; min-height: 220px;
+    }
+    .icon { font-size: 35px; }
+    h2 { font-size: 21px; margin: 12px 0 6px; }
+    .card p { color: #bdcbd6; font-size: 14px; min-height: 48px; }
+    .btn {
+      display: block; text-align: center; text-decoration: none;
+      background: #39c98c; color: #06251c;
+      padding: 11px 16px; border-radius: 10px;
+      font-weight: bold; margin-top: 18px;
+    }
+    .btn.gold { background: #d7b66a; color: #241b08; }
+    .info {
+      text-align: center; border-top: 1px solid #ffffff20;
+      padding: 28px 0; color: #c2ced8;
+    }
+    .info strong { color: #ffffff; }
+    footer {
+      text-align: center; padding: 18px;
+      color: #91a2b1; font-size: 12px;
+      border-top: 1px solid #ffffff20;
+    }
+    a:focus { outline: 3px solid white; outline-offset: 3px; }
+    @media (max-width: 600px) {
+      .services { grid-template-columns: 1fr; }
+      .hero { padding-top: 45px; }
+      .card { min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">EV <span>PREMIUM</span> TAXI</div>
+  </header>
 
+  <main class="wrap">
+    <section class="hero">
+      <div class="tag">ELECTRIC VEHICLE • PREMIUM SERVICE</div>
+      <h1>เดินทางอย่างมั่นใจ<br><span>ด้วยบริการที่ใส่ใจทุกเส้นทาง</span></h1>
+      <p class="lead">
+        รถยนต์ไฟฟ้าพร้อมคนขับ บริการรับ-ส่งจากจังหวัดราชบุรี
+        เดินทางในเมือง ต่างจังหวัด สนามบิน และโรงพยาบาล
+      </p>
+    </section>
+
+    <section class="services">
+      <article class="card">
+        <div class="icon">🚘</div>
+        <h2>ระบบจองรถออนไลน์</h2>
+        <p>กรอกข้อมูลการเดินทาง ตรวจสอบรายละเอียดและขอใบเสนอราคาค่าบริการ</p>
+        <a class="btn gold" href="./booking/">เข้าสู่ระบบจองรถ</a>
+      </article>
+
+      <article class="card">
+        <div class="icon">📊</div>
+        <h2>ระบบคำนวณต้นทุน</h2>
+        <p>เครื่องมือบันทึกงานและคำนวณต้นทุนสำหรับการบริหารงาน EV Premium Taxi</p>
+        <a class="btn" href="./cost/">เข้าสู่โปรแกรมต้นทุน</a>
+      </article>
+    </section>
+
+    <section class="info">
+      <p><strong>EV PREMIUM TAXI</strong></p>
+      <p>รถเช่าพร้อมคนขับ • จังหวัดราชบุรีและพื้นที่ใกล้เคียง</p>
+      <p>โทร. <strong>062-964-2399</strong></p>
+      <p>LINE: <strong>Sompoom6452</strong></p>
+      <p>Facebook: <strong>EV Premium Taxi</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 EV Premium Taxi. All rights reserved.
+  </footer>
+</body>
+</html>
